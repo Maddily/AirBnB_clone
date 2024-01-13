@@ -5,7 +5,7 @@ import unittest
 from models.review import Review
 from models.engine.file_storage import FileStorage
 import os
-from models import storage
+"""from models import storage"""
 from models.base_model import BaseModel
 
 

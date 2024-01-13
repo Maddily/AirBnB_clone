@@ -16,6 +16,7 @@ Classes:
 - TestBaseModel_save
 """
 
+from models import storage
 from models.base_model import BaseModel
 import unittest
 from datetime import datetime
@@ -23,7 +24,6 @@ from time import sleep
 from uuid import uuid4
 import re
 import os
-from models import storage
 
 
 class TestBaseModel(unittest.TestCase):

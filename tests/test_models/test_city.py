@@ -5,7 +5,7 @@ import unittest
 from models.city import City
 from models.engine.file_storage import FileStorage
 import os
-from models import storage
+"""from models import storage"""
 from models.base_model import BaseModel
 
 
