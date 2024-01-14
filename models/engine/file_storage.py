@@ -73,7 +73,6 @@ class FileStorage:
             with open(FileStorage.__file_path, encoding="utf-8") as f:
                 serialized_objs = json.load(f)
 
-            for value in serialized_objs.values():
-                class_name = value['__class__']
-                obj = eval(class_name)(**value)
-                self.new(obj)
+            for key, obj_dict in serialized_objs.items():
+                class_name = obj_dict['__class__']
+                FileStorage.__objects[key] = eval(class_name)(**obj_dict)
