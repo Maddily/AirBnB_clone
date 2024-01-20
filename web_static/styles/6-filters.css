@@ -10,13 +10,14 @@
     box-sizing: border-box;
 }
 
-.locations, .amenities {
+.locations, .filters .amenities {
     width: 25%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 1;
 }
 
 .locations {
@@ -62,7 +63,7 @@
     line-height: 1.5rem;
 }
 
-.locations:hover .popover, .amenities:hover .popover {
+.locations:hover .popover, .filters .amenities:hover .popover {
     display: block;
     position: absolute;
     top: 100%;
@@ -85,7 +86,7 @@
     margin-bottom: 1rem;
 }
 
-.amenities .popover li {
+.filters .amenities .popover li {
     width: fit-content;
     margin-left: 3.2rem;
     line-height: 1.2rem;
