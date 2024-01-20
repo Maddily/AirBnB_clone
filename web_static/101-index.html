@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBnB Clone</title>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/101-places.css">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <span class="logo"></span>
+    </header>
+    <div class="container">
+        <section class="filters">
+            <div class="locations">
+                <div class="location-headings">
+                    <h3>States</h3>
+                    <h4>Cairo, Alexandria...</h4>
+                </div>
+                <ul class="popover">
+                    <li>
+                        <h2>Cairo:</h2>
+                        <ul>
+                            <li>Downtown</li>
+                            <li>Heliopolis</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Alexandria:</h2>
+                        <ul>
+                            <li>Gleem</li>
+                            <li>Stanley</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <div class="location-headings">
+                    <h3>Amenities</h3>
+                    <h4>Internet, Kitchen...</h4>
+                </div>
+                <ul class="popover">
+                    <li>Internet</li>
+                    <li>TV</li>
+                    <li>Kitchen</li>
+                    <li>Iron</li>
+                </ul>
+            </div>
+            <button>Search</button>
+        </section>
+        <section class="places">
+            <h1>Places</h1>
+            <div class="place_listings">
+                <article class="place">
+                    <div class="name_and_price">
+                        <h2 class="place_name">My Home</h2>
+                        <div class="price_by_night">$80</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <span class="guest_icon"></span>
+                            <p class="no_of_guests">2 Guests</p>
+                        </div>
+                        <div class="number_rooms">
+                            <span class="bed_icon"></span>
+                            <p class="no_of_bedrooms">1 Bedroom</p>
+                        </div>
+                        <div class="number_bathrooms">
+                            <span class="bath_icon"></span>
+                            <p class="no_of_bathrooms">1 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b> Mohammad</p>
+                    </div>
+                    <div class="description">
+                        In terms of architectural design and furniture arrangement, life in this apartment is both compact and pleasant.
+                        The apartment receives plenty of natural light, and the lighting has been properly organized.
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li><span class="tv_icon"></span>TV</li>
+                            <li><span class="wifi_icon"></span>WiFi</li>
+                            <li><span class="pet_icon"></span>Pet Friendly</li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>2 Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Murat, 11th of December, 2023</h3>
+                                <p>Mohammad is a great host. I'd definitely like to visit again.</p>
+                            </li>
+                            <li>
+                                <h3>From Najmah, 4th of January, 2024</h3>
+                                <p>Lovely place. I highly recommend it.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="place">
+                    <div class="name_and_price">
+                        <h2 class="place_name">Tiny House</h2>
+                        <div class="price_by_night">$65</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <span class="guest_icon"></span>
+                            <p class="no_of_guests">4 Guests</p>
+                        </div>
+                        <div class="number_rooms">
+                            <span class="bed_icon"></span>
+                            <p class="no_of_bedrooms">2 Bedrooms</p>
+                        </div>
+                        <div class="number_bathrooms">
+                            <span class="bath_icon"></span>
+                            <p class="no_of_bathrooms">1 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b> Fatimah</p>
+                    </div>
+                    <div class="description">
+                        Keep it simple at this calm and centrally located place.
+                        The place is close to many shopping centers and markets.
+                        You get to relax in a clean setting with a detached garden area that will make you feel at home.
+                        The house is 400 quare ft. with a full bath, a mini kitchen and a living room.
+                        The extra hight ceilings make the house feel more spacious.
+                        The sofa converts to a bed. We have a handmade counter area that adds character to the room and a great porch/deck to relax on.
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li><span class="pet_icon"></span>Pet Friendly</li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>1 Review</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bilal, 2nd of November, 2023</h3>
+                                <p>
+                                    Fantastic place. It's very clean and spacious and there's amazing light coming in from the huge windows.
+                                    Fatimah was such a great host, even though we didn't personally meet, and everything went smoothly.
+                                    The location is also great and quiet for people who like running or walking.
+                                    I would suggest bringing a car or taking into consideration the fact that you might need to call a cab to go into the city from the location.
+                                    Overall, I would recommend the place anytime.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="place">
+                    <div class="name_and_price">
+                        <h2 class="place_name">A Suite</h2>
+                        <div class="price_by_night">$190</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <span class="guest_icon"></span>
+                            <p class="no_of_guests">2 Guests</p>
+                        </div>
+                        <div class="number_rooms">
+                            <span class="bed_icon"></span>
+                            <p class="no_of_bedrooms">2 Bedrooms</p>
+                        </div>
+                        <div class="number_bathrooms">
+                            <span class="bath_icon"></span>
+                            <p class="no_of_bathrooms">2 Bathrooms</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <p><b>Owner:</b> Busra</p>
+                    </div>
+                    <div class="description">
+                        The location is in one of Istanbul's most prominent districts near the city center.
+                        It takes 10-12 minutes to walk to Taksim Square and Istiklal Street, and 4 minutes to go to Nisantasi.
+                        It is fairly easy to get to historical sites and museums.
+                        There are restaurants, cafes, supermarkets, and shopping centers nearby.
+                        The bus and metro stations are two minutes away.
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li><span class="tv_icon"></span>TV</li>
+                            <li><span class="wifi_icon"></span>WiFi</li>
+                            <li><span class="pet_icon"></span>Pet Friendly</li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>1 Review</h2>
+                        <ul>
+                            <li>
+                                <h3>From Ali, 2nd of January, 2023</h3>
+                                <p>
+                                    This house is fantastic, and Ali is an excellent host.
+                                    He made certain that everything was in order and that we were having a good time during our stay.
+                                    The location is ideal, right beside the park.
+                                    We would go for daily walks and hang around with the kittens.
+                                    I highly suggest this place.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <footer>Best School</footer>
+</body>
+</html>
