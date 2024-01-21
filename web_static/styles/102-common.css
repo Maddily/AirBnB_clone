@@ -11,6 +11,7 @@ body {
     align-items: center;
 }
 
+/*Everything between the header and the footer*/
 .container {
     flex: 1;
     width: 100%;
