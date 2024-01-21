@@ -1,9 +1,11 @@
+/*The "Places" heading*/
 .places h1 {
     font-size: 1.875rem;
     text-align: left;
     margin: 1rem 0 0 1rem;
 }
 
+/*All places*/
 .place_listings {
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +48,8 @@
     right: 0;
 }
 
+/*The part containing the guest, bedroom and bathroom icons and text
+below them*/
 .information {
     height: 5rem;
     border-top: 1px solid #DDDDDD;
@@ -55,6 +59,7 @@
     align-items: center;
 }
 
+/*Each pair of icon + text in information div*/
 .max_guest, .number_rooms, .number_bathrooms {
     width: 6.25rem;
 }
@@ -78,10 +83,12 @@
     height: 50px;
 }
 
+/*The text below the icons in information div*/
 .no_of_guests, .no_of_bedrooms, .no_of_bathrooms {
     margin: 0;
 }
 
+/*The owner and description text*/
 .user, .description {
     text-align: left;
 }
@@ -95,6 +102,7 @@
     text-align: left;
 }
 
+/*The word Amenities*/
 .place .amenities h2 {
     font-size: 1rem;
     border-bottom: 1px solid #DDDDDD;
@@ -138,7 +146,7 @@
     margin-top: 2.5rem;
     text-align: left;
 }
-
+/*The heading showing the number of reviews*/
 .reviews h2 {
     font-size: 1rem;
     border-bottom: 1px solid #DDDDDD;
